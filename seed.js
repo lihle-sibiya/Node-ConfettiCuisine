@@ -4,7 +4,7 @@ const mongoose = require("mongoose"),
   Course = require("./models/course");
 mongoose.Promise = global.Promise;
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://127.00:27017/confetti_cuisine",
+  process.env.MONGODB_URI || "mongodb+srv://lihle:12345@cluster1.nrtnldh.mongodb.net/confetti_cuisine",
   { useNewUrlParser: true, useFindAndModify: false }
 );
 
